@@ -1,0 +1,253 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Krish Naik
+
+
+
+
+
+
+
+
+
+E-mail: krishnaik06@gmail.com  
+ 
+      
+  
+             Mobile :  +91 9899399757
+Profile
+	Summary: Data Scientist and Sitecore CMS developer with proven experience in architecting applications with Algorithms,Data stuctures,Binary tree,Pyspark ML,Artificial Intelligence,Machine  Learning,Deep Learning,Convolutional Neural Network,Recurrent Neural Network ,Python with libraries such as Sklearn,Numpy,Pandas,Matplotlib,Tableau for Data Visualization,Keras,Tensorflow ,C#,ASP.NET MVC,Sitecore CMS,Solr 5.5.1,MVC , SQL Server, AJAX and XML. I have also done some internal projects as Data Analyst with using tools such as Tableau for Data Visualization and reporting the product owner.Recognized by managers, colleagues, and peers as a personable, dedicated performer who demonstrates innovation, communication, and teamwork to ensure quality, timely project completion.
+Achievements: 
+
+· Mentored more than 100 students in Machine Learning and AI
+
+· Writing a book on Python and Deep Learning on Finance.
+
+· 6.5+ years of experience in Software Development and Project Implimentation and 3.5+ years experience as Data Scientist Machine Learning and Deep Learning Developer
+
+· Presently associated Honeywell Technology solution  as Tech Lead
+
+· Previously associated Sapient Consultancy Limited  as Senior Associate L1.
+· Previously associated with HCL Technologies Limited  as Software Developer.
+· Programming Languages: Python,Machine Learning,Artificial Intelligence, Deep Neural Networks, Convolutional Neural Network ,Sklearn Libraries,ASP.NET (v4.6 and prior), C#, Sitecore CMS(8.0,8.1,8.2),SOLR 5.5.1.
+· Databases: Hadoop HDFS,SQL Server 2014/2012/2008/2005,Mysql, Basic knowledge in Oracle.
+· Platforms and Misc: Anaconda, Jupyter Notebook,Spyder IDE,Visual Studio 2017,VS 2016, Anaconda,python IIS, Windows XP/W7/W8
+· Other Skills:  All phases of the software development life-cycle (requirements, design, development, testing, release, support), utilizing multiple development methodologies, including Design Patterns, OOD, Extreme Programming, and Structured Programming.
+· Possess good interpersonal skills that have been put to good use in co-coordinating with Project teams and providing customized software solutions.
+· Team player with effective communication skills and proven abilities in resolving complex issues.
+
+	
+
+
+Employment Scan
+Dec 17 to Current
+           Honeywell Technology Solution
+
+Tech Lead
+
+April 14 to Dec 2017
+            Sapient Consultancy  Limited
+
+Senior Associate L1
+Dec’ 11
+to April 2014
+
+HCL Technologies  Limited
+
+Software Developer
+Functional Responsibilities
+· Involved in Data Preprocessing Techniques for making the data useful for creating Machine Learning models
+· Owned and executed end to end multiple data science projects
+· Translate product requirements into analytical requiremnets/specification, design and develop required functionality.
+· Leveraged technology to automate daily operational activities.
+· Lead and mentor a team of data scientists.
+· Involved in creating various regression and classification algorithms by using various sklearn libraries such as Linear Regression,Decision Trees,Naïve Baye’s
+· Involved in creating a model for  predicting the sales for the China Airlines air Tickets based on seasonal and various occasions
+· Involved in creating Machine Learning models for test A/B content which is useful for making better decisions regarding the products
+· Involved in the  Sitecore CMS web application development along MVC C# .net and also created various custom modules to fit the requirements.
+
+· Also provided internal corporate training within the company for Data Science, ML and Deep Learning.
+· Involved in designing the neural networks using Tensorflow for various internal projects within the company such as automated chatbots using NLP
+· Also have experience in creating skillsets using Amazon Alexa by using node js.
+Academia
+
+2011
+
+B.Tech (Computer Science Engineering) from PDA College of                       
+
+                        Engineering,Gulbarga,Karnataka University. Secured 9.24 CGPA
+2007
+
+12th from St Philomena P.U College, Mysore. Secured 74.33%.
+
+2005
+
+10th from Mount Carmel Convent School, Gulbarga,Karnataka. Secured 83.52%.
+
+REPRESENTATIVE PROJECT EXPERIENCE SUMMARY
+
+	Client
+	Project
+	Technology
+	Roles 
+	  Duration     (in months)
+
+	Honeywell AIDC Portals
+	Honeywell
+	Machine Learning, Python,Sklearn, Artificial Intelligence,Neural Networks, Keras,Tensorflow,Tableau for Data Visualization,ASP.net MVC
+	· Tech Lead
+	Current project
+
+	Howdens
+	Howdens
+	Sitecore 8.2, ASP.net MVC,Solr,Machine Learning,Python,AI Neural Networks,Chat bots
+	· Senior Developer
+	8 months
+
+	GAF
+	GAF
+	Sitecore 8.1, ASP.net MVC,Solr,Machine Learning,Python,AI,Chatbots
+	· Senior Developer
+	4 months
+
+	Sunsuper
+	Sunsuper
+	Sitecore 8.0, ASP.net MVC,Solr,Python,Machine Learning
+	· Senior Developer
+	1 year
+
+	China Airlines
+	China Airlines
+	MVC5,Asp.net 4.5,SQL server,Sitecore 7.2 CMS,Jquery,Angular js,Python,Machine Learning,Artificial Intelligence
+	· Developer
+	1 year
+
+	Boston Consulting Group
+	BCG.com-maintainenece
+	MVC ,Jquery,Nhibernate,Tridion,Sql Server
+	· Developer
+	13
+
+	Cannacord Genuity(U.K)
+	Quest Plus Maintanence
+	ASP.NET, C#.NET 3.5, MVC,Jquery JavaScript,Sql Server 2008
+	· Developer
+	14
+
+	Cooperation Pharmacy
+	Locum
+	ASP.NET, C#.NET 4.0,Linq,JavaScript,Sql Server 2008
+	· Developer
+	6
+
+	Yahoo
+	Migration of EMEA Websites from Legacy to Lego Platform 
+	Java,PHP,MYSQL,AJAX, JavaScript, HTML, CSS
+	·  Developer
+	5
+
+
+Github Link
+https://github.com/krishnaik06
+
+Strength
+
+Positive Attitude: To progress positively under all circumstances with conviction and maturity in approach.
+
+Adaptability & Flexibility: To adapt accordingly under the application of adverse or pressure conditions without deviating from critical to quality concerns.
+
+Enthusiasm for Learning: Endlessly strives to learn through different activities.
+Personal Dossier
+
+Date of Birth
+
+:
+24th September 1989
+Sex
+
+
+:
+Male
+
+
+
+Father’s Name
+
+:
+Mr. Chandrashekar Naik
+Mother’s Name
+: 
+Ms. Vidya Naik
+Permanent Address
+:
+Flat no G-05, Royal Mist Apartment,Heelalige,Chandapur,Bangalore
+Current Address
+:
+Flat no G-05, Royal Mist Apartment,Heelalige,Chandapur,Bangalore
+Nationality
+
+:
+Indian
+Endorsement
+
+I hereby declare that the information furnished above is complete and true to the best of my knowledge.
+Date:
+
+
+
+
+
+Place:  
+
+
+
+
+
+
+
+
+
+               Krish.C.Naik

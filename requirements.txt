@@ -5,3 +5,4 @@ python-docx==0.8.11
 tika==1.24
 PyMuPDF== 1.19.6
 docx2pdf==0.1.8
+psutil==5.8.0
