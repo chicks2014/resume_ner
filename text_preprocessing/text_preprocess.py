@@ -4,6 +4,7 @@ import unicodedata
 import re
 import string
 import spacy
+import contractions
 from nltk.tokenize import ToktokTokenizer
 
 
@@ -62,7 +63,11 @@ def remove_stopwords(text):
     # check in lowercase 
     t = [token for token in tokens if token.lower() not in stopword_list]
     text = ' '.join(t)    
-    return text    
+    return text   
+
+# function to expand contractions
+def expand_contractions(text):
+    return contractions.fix(text)     
 
 
  
