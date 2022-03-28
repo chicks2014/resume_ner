@@ -5,11 +5,45 @@ from tika import tika as tika_server
 from tika import parser
 import os
 import re
+import pdf2image
+import pytesseract
+from pytesseract import Output, TesseractError
+import os
+import shutil
 
 # define the resume folder paths
-resume_source = "./resumes/resume_source"
-resume_extracted = "./resumes/resume_extracted"
-resume_cleaned = "./resumes/resume_cleaned"
+resume_source = "./resumes/01_resume_source"
+resume_extracted = "./resumes/02_resume_extracted"
+resume_cleaned = "./resumes/04_resume_cleaned"
+resume_not_extracted = "./resumes/03_resume_not_extracted"
+
+'''
+text_extraction_image_pdf(resume_file_path)
+Feature: Extract text data from pdf docuemnts created from image file and save it in a text file.
+Input: File path source, file path destination
+Exception: Image size up to the limit of 178956970 pixels
+'''
+def text_extraction_image_pdf(resume_file_path):
+    pdf_path = resume_file_path
+    pTextString = ""
+    if(pdf_path.endswith(".pdf")):
+        try:
+            print("Attempt to Extract Text from image PDF File : ", pdf_path)
+            images = pdf2image.convert_from_path(pdf_path)
+            pTotalPages = (len(images))
+
+
+            for x in range(pTotalPages):
+                text = ""    
+                pil_im = images[x]
+                ocr_dict = pytesseract.image_to_data(pil_im, lang='eng', output_type=Output.DICT)
+                # ocr_dict now holds all the OCR info including text and location on the image
+                text = " ".join(ocr_dict['text'])
+                pTextString = pTextString + "\n" + "\n"+  "\n" + text
+                # print(pTextString)
+                # return pTextString
+        except Exception as e: print(e)                
+    return pTextString
 
 '''
 text_extraction(resume_source,resume_extracted)
@@ -32,7 +66,8 @@ def text_extraction(resume_source,resume_extracted):
                             return process
 
         # to stop running process before stating a new one.        
-        if existing_tika_process := get_tika_process():
+        existing_tika_process = get_tika_process()    # Changed for Python 3.6
+        if (existing_tika_process):
             # print("Found tika process:", existing_tika_process)
             # print("Existing process args:", existing_tika_process.cmdline())
             existing_tika_process.terminate()
@@ -49,6 +84,8 @@ def text_extraction(resume_source,resume_extracted):
         # Loop through the files inside the source folder. Extract text using the tika. 
         for process_file in os.listdir(resume_source):
             file, extension = os.path.splitext(process_file) 
+            pInvalidPDFFile = False
+            pInvalidFile = False
             try:        
                 resume_file_path = os.path.join(resume_source, process_file)
                 print(resume_file_path)    
@@ -63,14 +100,52 @@ def text_extraction(resume_source,resume_extracted):
                 # print(parsed["metadata"])        # for getting the file metadata
                 pTextString = parsed["content"]  # for getting the file content
                 # print(pTextString)
-            
-                # Write the extracted text data in to a file
-                resume_extracted_file_path = os.path.join(resume_extracted, process_file)
-                generatedFile = resume_extracted_file_path + ".txt"
+                try:
+                    pTextStringLength = len(pTextString)
+                    print(pTextStringLength)
+                    if (pTextStringLength < 1000):
+                        print("Note : Total extracted charecters are less than 1000")
+                        if(resume_file_path.endswith(".pdf")):
+                            pInvalidPDFFile = True
+                        else:
+                            pInvalidFile = True
 
-                file = open(generatedFile, "a")
-                file.write(str(pTextString)) 
-                file.close()
+                except:
+                    print("Note : Extractied Text object is of type NoneType")
+                    if(resume_file_path.endswith(".pdf")):
+                        pInvalidPDFFile = True
+                    else:
+                        pInvalidFile = True
+
+                if(pInvalidPDFFile):
+                    try:
+                        if(resume_file_path.endswith(".pdf")):
+                            pTextString = text_extraction_image_pdf(resume_file_path)
+                            pTextStringLength = len(pTextString)
+                            print("Image PDF Text Extracted : ", pTextStringLength)
+                            if (pTextStringLength < 1000):
+                                pInvalidFile = True
+
+                    except Exception as e: print(e)
+
+                if(pInvalidFile):
+                    try:
+                        presume_source_file_path = os.path.join(resume_source, process_file)
+                        shutil.copy2(presume_source_file_path, resume_not_extracted)
+                        print("Copied the non processed file to the folder")
+
+                    except Exception as e: print(e)
+                else:
+                    try:
+                        # Write the extracted text data in to a file
+                        resume_extracted_file_path = os.path.join(resume_extracted, process_file)
+                        generatedFile = resume_extracted_file_path + ".txt"
+
+                        file = open(generatedFile, "w")
+                        file.write(str(pTextString)) 
+                        file.close()                        
+
+                    except Exception as e: print(e)
 
             except Exception as e: print(e)
 
@@ -107,6 +182,9 @@ def text_cleaning(resume_extracted,resume_cleaned):
 
                 clean_text = remove_extra_whitespace_tabs(text_data)
 
+                pclean_textLength = len(clean_text)
+                print(pclean_textLength)
+
                 # print(clean_text)
                     
                 with open(generatedFile_cleaned,'w',encoding = "utf-8") as f:
@@ -122,4 +200,4 @@ text_cleaning(resume_extracted,resume_cleaned)
 
 # use this for running the text_extracter.py file directly
 # Create a conda environment inlp01
-# conda run -n inlp01 --no-capture-output --live-stream python ./text_extract/text_extracter.py
+# python text_extract/text_extracter.py
