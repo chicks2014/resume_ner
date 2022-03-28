@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aniket Kashyap - Software Developer/Data Scientist - VisualCV
+
+
+Aniket Kashyap
+Software Developer/Data Scientist
+Bengaluru | 9691316944 | monu.aniket@gmail.com
+
+  linkedin.com/in/aniket-kashyap-37456ba4/   github.com/Aniket130590
+
+More than  4 years of experience in Software Development and Project
+Implementation and out of which 2+years of experience as Data Scientist,
+Machine Learning  and Deep Learning.Working experience and extensive
+knowledge in Python, Natural Language Processing with libraries such as
+Sklearn,Numpy,Pandas,Matplotlib,NLTK,SQL Server, data mining .Platforms and
+Misc: Anaconda Enterprise Edition, Jupyter Notebook,Spyder IDE,SQL Server 
+Management Studio, Visual Studio 2017, python IIS, Windows XP/W7/W8Other
+Skills: All phases of the software development life-cycle (requirements,
+design,development, testing, release, support), utilizing multiple development
+methodologies.
+
+06/2017 - Till Date
+
+09/2016 - 04/2017
+
+01/2014 - 08/2016
+
+Software engineer
+XL SOLUTIONS GROUP
+
+Software engineer
+Hewlett Packard Enterprise
+
+Developer
+Touch idea
+
+- 2013
+
+- 2014
+
+- 2014
+
+Bachelor of Engineering, Computer Science  
+Swami Vivekananda Technical University, Bhilai 
+
+Certification Program in Data Science with Deep Learning.
+AcadgildNIT Hyderabad
+
+Diploma in. Net
+NIT Hyderabad
+
+Project Management
+Data Analysis
+Data Pre-processing
+NLP
+Database Management
+Model Building
+Machine Learning
+Deep Learning
+
+Python
+
+Numpy
+
+Pandas
+
+Matplotlib
+
+SCIKIT Learn
+
+NPL/NLTK
+
+Tensorflow
+
+Keras
+
+SQL Server
+
+Summary  
+
+Work experience  
+
+Education  
+
+Projects  
+
+Skills  
+
+Programming Skills  
+
+mailto:monu.aniket@gmail.com
+https://www.linkedin.com/in/aniket-kashyap-37456ba4/
+https://github.com/Aniket130590
+https://www.niit-tech.com/
+
+
+XL SOLUTIONS GROUP
+
+United Educators- Institution Popularity Analysis-
+
+The company wanted to get the overviews of feedback given by students and
+general people before giving them insurance cover. We used NLP to find out that
+institution is having more positive sentiments or not and provided proper
+visualization using plots to help  concerned team in taking the decision.
+
+ML Crane- Accessories and parts Requirement Prediction System-
+
+The company had many service stations across country for service of cranes, and
+it was difficult for them to maintain supply of all parts across all service centers as
+they were having different demands to organize the supply they wanted to have
+predicted model that can predict if that which parts will be needed in a particular
+region and they used to provide those parts in that region. We got many data
+related to climate, industrial uses and other related information and using which
+we prepared our model. For this we tested many ML algorithms and then found
+decision tree and random forest were having similar output so we decided to put
+decision tree as the it needed less computation time and less computational
+resources.
+
+Technology Used- Pandas,Numpy , PCA ,Matplotlib ,Random Forest
+Classifiers,SQL Server 2012.
+
+HEWLETT PACKARD ENTERPRISE.
+
+VFS Global  - Visa Approval Prediction-
+One of our client VFS wanted to have a prediction system which would classify
+applications in 3 categories based on chances of approval high, medium and low
+based on which they used to either process the application to concerned
+country’s o ice, this was helpful mainly for student and work visas as their
+approval depends on trend mostly. We got all previous data like the course detail
+,highest qualification, year of stay etc. to build the model and using that we built
+model. In this case we got one of the best accuracy using decision tree and so
+finalized the model.
+
+Touch Idea .
+
+My HRWIZARD - This project mainly deals with providing efficient and accurate
+payroll services to companies. Companies ranging from a single employee to
+thousands of employees can use these services for the effective management of
+employee payroll services. One of the main features of this project is report
+generation based on wide variety of base reports. It is useful in payroll processing,
+maintenance of time and attendance, HR services, Maintenance of insurance and
+access to workers compensation etc.
+
+This system provides a broad range of time keeping that allow employers to
+effectively track employee hours.   Each feature is offered to assist in conveniently
+organizing and quantifying an employee's work day. Key features include Job
+costing, Automated overtime Calculations, Holiday tracking and payment, Online
+time-card editing, Daily auto email report etc.
+
+TAF  Route Management of a Bicycle Riding Event - The objective is to
+manage the whole route of a bicycle riding event. It has different modules like
+registration of riders as well as volunteers, creation and management of route
+map, task assignment to all, tracking the riders’ locations and showing in the
+map, helping and assisting the riders etc.
+
+
+
+Guide the team member to understand the requirement and allocate the
+work accordingly.
+Communicate with client to understand the planning of projects and provide
+them progress reports of each modules.
+Gather complete requirements of the project from user
+To analyse the requirement and prepare best suited database structure
+design for the project.
+Create the database, tables, function and stored procedure for the project.
+Work on the code and develop the application and provide support to system
+team fro go live process.
+
+“ONLINE PC BUILDER” is customized for configure PC Online  this project can
+make easy to configure and purchase pc online, and provide online ordering
+environment for your personal computer users. Project is completed in Three
+Tire architecture. In this project we used ASP.NET, technology for making a
+web application, jQuery for validation, Bootstrap for responsive web page,
+and MySQL Database for backend in this project developed in two modules
+which is based on User and Admin module.
+Worked as Project Leader with work in designing and requirement analysis
+phase of Software Development Life Cycle (SDLC). We followed the waterfall
+model. Along with this helped in programming in different modules.
+Animated website design.
+
+Responsibilities  
+
+Educational Credentials  
+
+
+	Aniket Kashyap
+	Software Developer/Data Scientist
+	Summary
+	Skills
+	Programming Skills
+	Work experience
+	Python
+	Software engineer
+	Software engineer
+	Developer
+
+	Education
+	SCIKIT Learn
+	Bachelor of Engineering, Computer Science
+	Certification Program in Data Science with Deep Learning.
+	Diploma in. Net
+
+	Projects
+	Responsibilities
+	Educational Credentials
+
+
+

@@ -1,0 +1,622 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESUME
+Nazar .R–Data Scientist                                                                              www.linkedin.com/in/nazarr/
+Mobile:  91-8951605480	                                                                              www.Github.com/rnazardsm               
+Email ID: rnazards@gmail.com                                                                   www.kaggle.com/nazardsm                    
+
+ 
+Summary:
+Data Scientist with Master in Computer Engineering 7+ Years of Experience in Software Development and Web Analytics Implementation and 3+ years of Experience Using Predictive Modelling, Data Processing, Data Mining Algorithms, Natural language processing (NLP), hands-on experience leveraging machine learning, Deep Learning  Models to Solve Challenging Business Problems. 
+
+Job Responsibility:
+· Achievement-Driven Professional with a Relevant Experience of 3+ Years.
+· Deep involvement in handling the Critical Deliverables, Benchmarking Solutions, Driving Key Metrics, Maintaining Productivity and ensuring Projects are Profitable.
+· Experience in Statistics, Machine Learning & NLP and Python Methodologies.
+· Experience in Visualization Tools Like Tableau Software, Google Analytics, Adobe Analytics
+· To understand the business use cases from clients and convert them into a well-defined problem statement and explain it to the development team.
+· To Develop Algorithms and Predictive Models to Drive Insights and Business Values from Data
+· To identify data sets required to develop predictive models for solving internal and external business problems
+· Identify and implement use cases which might help the organization business development To interpret results and produce actionable business insights that 
+· lead to measurable business and consumer experience performance improvements	
+· Experience in building applications with Artificial Intelligence, Machine Learning, Deep Learning, Recurrent Neural Network, Computer vision, NLP and Python.
+· Worked on Deployment and optimization of various computer vision, Machine learning and NLP solution on web based application, Azure platform using kubernetes services and Raspberry pi. 
+· Designing the neural networks using Tensor flow for various internal projects within the company and working on Chatbots using NLP
+
+Technical Skills:
+	Skill
+	Technology worked on
+
+	Domain
+	Marketing Analytics
+
+	Programming/Scripting
+	Python, JS
+
+	Tools/IDE
+	Pycharm, Pyspyder, Jupyter  Notebook, Eclipse
+
+	Cloud
+	Google Cloud,Azure,AWS,GAIA ( Pivotal Cloud Foundry )
+
+	Machine learning 
+	Machine Learning,Data Analysis, Artificial intelligence, Natural Language Processing, Pandas, Scikit learn, Matplotlib, Python, Data Cleaning
+
+	Deep Learning/Computer vision 
+	Tensorflow, keras, CNN, Faster CNN, RNN, RNN – LSTM, Vgg16, Resnet-50, Mobilenet, SSD, Harcascade, Tensorflow JS 
+
+	Project Methodology
+	Agile SCRUM
+
+	Operating Systems
+	Windows, Ubuntu
+
+	Distribution
+	Cloudera 
+
+	Hardware
+	Nvidia Tesla,Raspberry Pi 3b+ 
+
+	Version Control
+	GIT, BIT BUCKET
+
+	Data Base
+	SQL,My SQL
+
+
+
+Skils and Knowledge Areas:
+
+
+	Development Tools
+	Expertise
+	Experience in Years
+
+	Python Programming
+	Expert
+	3+ Years
+
+	Machine Learning
+	Expert
+	3+ Years
+
+	NLP – Natural Language Processing
+	Expert
+	3+ Years
+
+	Data Visualization
+	Expert
+	3+ Years
+
+	MYSQL
+	Expert
+	3+ Years
+
+	AGILE, SCRUM Based Development
+	Expert
+	3+ Years
+
+	Deep Learning
+	Intermediate
+	1+ Years
+
+	Big Data
+	Intermediate
+	1+ Years
+
+	Computer Vision
+	Intermediate
+	1+ Years
+
+
+
+             
+Tools and Libraries Used:
+
+	Numpy
+	Pandas
+	Stats Models
+
+	Scipy
+	Seaborn
+	Matplotlib
+
+	Scikit-learn
+	Jupyter Notebooks
+	Google Colab
+
+	NLTK
+	Tensorflow
+	Keras
+
+	Open CV
+	TextBlob
+	Tweepy
+
+	Gensim
+	Spacy
+	Beautiful Soup
+
+
+
+Educational Summary:
+
+· MBA from NIBM (National Institute of Business Management), Chennai with 84.19% (2017-2018) Tamil Nadu 
+· BCA from Bishop Heber College (Autonomous) Trichy with 64.17% (2004-2007) Tamil Nadu.
+
+Professional Experience:
+
+Associated with Zinavo Technologies - Bangalore 2012 to Till Now
+Zinavo Technologies, an ISO 9001-2008 certified company, extending its services in Software & IT Development Company in Bangalore, India
+· Data Scientist From March 2016 to Till Now-3+ Years
+· Digital Analytics Consultant From April 2014-March -2016-2 Year
+· Digital Marketing Engineer From April 2012 –March-2014- 2 Years
+
+Accountabilities:
+· Core Python,Numpy,Pandas,Matplotlib,SCIKIT Learn, Tensor flow, Tableau
+· Selecting features, building and optimizing classifiers using machine learning techniques
+· Data mining using state-of-the-art methods
+· Extending company’s data with third party sources of information when needed
+· Enhancing data collection procedures to include information that is relevant for building analytic systems
+· Processing, cleansing, and verifying the integrity of data used for analysis
+· Doing ad-hoc analysis and presenting results in a clear manner
+· Creating automated anomaly detection systems and constant tracking of its performance
+
+Projects Summary:
+
+
+	Client Name
+	Project Title
+	Technology
+	Roles
+	Durations
+
+	Zinavo
+	Customer Sales Predictions & Chat Bots Development
+Google Add Click Predictions
+Keywords Analysis
+	Python 
+Machine Learning
+Data Visualization
+Microsoft Luis
+Dialog flow
+NLP
+Google Cloud
+Predictive Modelling
+	Data Scientist
+	On Going
+
+	Altius Hospitals
+	Analysis of the Medical Records of individual’s Lung Capacity
+	Python 
+Machine Learning
+Data Visualization
+Matplotlib
+	Data Scientist
+	On Going
+
+	Tshirt Loot
+	Sentiment Analytics
+	Python
+Naïve Bayes Algorithm
+NLP
+	Data Scientist
+	2017-2018
+
+	Tripath Logistics
+	Transportation Supply Chain 
+ Management System
+
+	Python 
+Machine Learning
+Data Visualization
+Matplotlib
+	Data Scientist
+	On Going
+
+	PRO FX 
+	Market Basket Analysis
+	Python 
+Machine Learning
+Data Visualization
+Matplotlib
+	Data Scientist
+	2017-2018
+
+	Magical Nest Interior Designs Pvt.Ltd.
+	Ecommerce Products Recommendation System
+	Python 
+Machine Learning
+Data Visualization
+Matplotlib
+	Data Scientist
+	2017-2018
+
+	POC
+	Classification Problem 
+
+	Python 
+Keras, Pandas, Numpy
+	Data Scientist
+	2+ Years
+
+	POC
+	Object Detection
+	Deep Learning
+	Data Scientist
+	2+ Years
+
+	POC
+	Human Activity Recognition using Machine Learning
+	Algorithms : Logistic Regression, KNeighbors Classifier, Random Forest Classifier 
+
+	Data Scientist
+	2+ Years
+
+
+
+
+
+
+Declaration: 
+I hereby declare that the above information is true and correct to the best of my knowledge and belief.
+PLACE: Bangalore								     Yours Faithfully
+DATE:  									                        (R.Nazar) 
+THANK YOU
+
+
+
+
+
+
+
+
+
+
+RESUME
+ 
+Nazar 
+.R
+–
+Data Scientist                                                                             
+ 
+www.linkedin.com/in/nazarr/
+ 
+Mobile:  91
+-
+8951605480
+ 
+                                                                             
+ 
+www.
+Github.com/rnazardsm
+               
+ 
+Email ID: 
+rnazards@gmail.com
+                       
+                                           
+ 
+www.kaggle.com/nazardsm
+                    
+ 
+ 
+ 
+ 
+Summary:
+ 
+Data Scientist with Master in Computer Engineering 
+7+ 
+Years of Experience in Software Development 
+and Web Analytics Implementation and 
+3
++ years of 
+E
+xperience 
+U
+sing 
+P
+redictive 
+M
+odelling
+, 
+D
+ata 
+Processing, Data
+ 
+M
+ining 
+A
+lgorithms
+,
+ 
+N
+atural language processing
+ 
+(NLP)
+,
+ 
+hands
+-
+on experience 
+leveraging machine learning
+,
+ 
+Deep L
+earning 
+ 
+M
+odels to 
+S
+olve 
+C
+hallenging 
+B
+usiness 
+P
+roblems.
+ 
+ 
+ 
+Job 
+Responsibility:
+ 
+·
+ 
+Achievement
+-
+D
+riven 
+P
+rofessional 
+with
+ 
+a
+ 
+Relevant E
+xperience of 
+3+ Y
+ears.
+ 
+·
+ 
+Deep involvement in handling the 
+C
+ritical 
+D
+eliverables, 
+B
+enchmarking 
+S
+olutions, 
+D
+riving 
+Key Metrics, 
+M
+aintaining Productivity and ensuring 
+P
+rojects are 
+P
+rofitable.
+ 
+·
+ 
+Experience in 
+Statistics, Machine Learning & NLP 
+and Python 
+Methodologies.
+ 
+·
+ 
+Experience in Visualization Tools Like Tableau 
+Software, Google
+ 
+Analytics, Adobe
+ 
+Analytics
+ 
+·
+ 
+To 
+understand the business use cases from clients and convert them into a well
+-
+defined 
+problem statement and explain it to the development team.
+ 
+·
+ 
+To Develop Algorithms and Predictive Models to Drive Insights and Business Values from 
+Data
+ 
+·
+ 
+To identify data sets 
+required to develop predictive models for solving internal and external 
+business problems
+ 
+·
+ 
+Identify and implement use cases which might help the organization business 
+development To interpret results and produce actionable business insights that 
+ 
+·
+ 
+lead to m
+easurable business and consumer experience performance improvements
+ 
+ 
+·
+ 
+Experience in building applications with Artificial Intelligence, Machine Learning, Deep 
+Learning, Recurrent Neural 
+Network, Computer
+ 
+vision,
+ 
+NLP and 
+Python.
+ 
+·
+ 
+Worked on Deployment and optimization of various computer vision, Machine learning and 
+NLP solution on web based 
+application, Azure
+ 
+platform usin
+g kubernetes services and 
+Raspberry 
+pi. 
+ 
+·
+ 
+Designing the neural networks using 
+Tensor flow
+ 
+for various internal projects within the 
+company an
+d working on Chatbots using NLP
+ 
+ 
+Technical 
+Skills:
+ 
+Skill
+ 
+Technology worked on
+ 
+Domain
+ 
+Marketing 
+Analytics
+ 
+Programming/Scripting
+ 
+Python, 
+JS
+ 
+Tools/IDE
+ 
+P
+ycharm, Pyspyder, Jupyter  Notebook, Eclipse
+ 
+Cloud
+ 
+Google Cloud,Azure,AWS,
+GAIA ( Pivotal Cloud Foundry )
+ 
+Machine learning 
+ 
+Machine Learning,Data Analysis, Artificial intelligence, Natural 
+Language Processing, 
+P
+andas, 
+S
+cikit learn, 
+M
+atplotlib, 
+P
+ython, Data 
+
+
+
+
+
+
+
+
+
+
+/docProps/thumbnail.emf
+
+RESUME 
+Nazar .R–Data Scientist                                                                              www.linkedin.com/in/nazarr/ 
+Mobile:  91-8951605480                                                                               www.Github.com/rnazardsm                
+Email ID: rnazards@gmail.com                                                                   www.kaggle.com/nazardsm                     
+ 
+  
+Summary: 
+Data Scientist with Master in Computer Engineering 7+ Years of Experience in Software Development 
+and Web Analytics Implementation and 3+ years of Experience Using Predictive Modelling, Data 
+Processing, Data Mining Algorithms, Natural language processing (NLP), hands-on experience 
+leveraging machine learning, Deep Learning  Models to Solve Challenging Business Problems.  
+ 
+Job Responsibility: 
+ Achievement-Driven Professional with a Relevant Experience of 3+ Years. 
+ Deep involvement in handling the Critical Deliverables, Benchmarking Solutions, Driving 
+Key Metrics, Maintaining Productivity and ensuring Projects are Profitable. 
+ Experience in Statistics, Machine Learning & NLP and Python Methodologies. 
+ Experience in Visualization Tools Like Tableau Software, Google Analytics, Adobe 
+Analytics 
+ To understand the business use cases from clients and convert them into a well-defined 
+problem statement and explain it to the development team. 
+ To Develop Algorithms and Predictive Models to Drive Insights and Business Values from 
+Data 
+ To identify data sets required to develop predictive models for solving internal and external 
+business problems 
+ Identify and implement use cases which might help the organization business 
+development To interpret results and produce actionable business insights that  
+ lead to measurable business and consumer experience performance improvements  
+ Experience in building applications with Artificial Intelligence, Machine Learning, Deep 
+Learning, Recurrent Neural Network, Computer vision, NLP and Python. 
+ Worked on Deployment and optimization of various computer vision, Machine learning and 
+NLP solution on web based application, Azure platform using kubernetes services and 
+Raspberry pi.  
+ Designing the neural networks using Tensor flow for various internal projects within the 
+company and working on Chatbots using NLP 
+ 
+Technical Skills: 
+Skill Technology worked on 
+Domain Marketing Analytics 
+Programming/Scripting Python, JS 
+Tools/IDE Pycharm, Pyspyder, Jupyter  Notebook, Eclipse 
+Cloud 
+Google Cloud,Azure,AWS,GAIA ( Pivotal Cloud Foundry ) 
+Machine learning  Machine Learning,Data Analysis, Artificial intelligence, Natural 
+Language Processing, Pandas, Scikit learn, Matplotlib, Python, Data 

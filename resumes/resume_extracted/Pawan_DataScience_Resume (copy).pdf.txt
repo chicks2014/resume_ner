@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pawan Kumar A
+
+pawan9964@gmail.com
+
+#45, 8th cross road, ramamurthy nagar,Bengaluru-560016; +91-8008636324
+
+Career objective:
+
+My career  objective  is  to  succeed in an environment  of  growth and excellence and earn a job which
+provides me job satisfaction and self-development and help me achieve personal as well as organization
+goals.
+
+Education:
+
+Bachelor of Science (Btech) in Computer Science Engineering, AP IIIT,  KADAPA,AP.
+GPA: 8.07/10
+May 2018
+PUC, AP IIIT,  KADAPA,AP.
+GPA: 7.10/10
+May 2014
+10th class , SS Puram, Nagalapuram, Chittoor,AP.
+GPA: 9.7/10
+May 2012
+
+Technical Skills:
+
+Operating Systems: Windows 7/8.1/10 , Linux.
+
+Programming Languages: PYTHON,R,C, JAVA,C++.
+
+Knowledge In Technology:
+
+• Completed Data Science Masters from Acadgild
+• Data Analysis with Python      
+• Data Visualization with Python
+• Machine Learning with Python(Linear Regression ,Logistic Regression,KNN, k Means 
+Clustering, PCA, Decision Tree, Random Forest, SVM, Bayesian, Recommender Systems)
+• Deep Learning with tensorflow and keras.
+• Depth Knowledge in Probability and Statistics
+• Image Processing with OpenCV Python and C++.
+• Knowledge in HTML, CSS, JSP, JDBC ,MySql connections.
+• Ms Excel , Ms word .
+
+Projects:
+
+ML problem:Sentiment Analysis
+Algorithms:naive bayes, linear classifiers, tree classifiers,Simple DeepLearning
+Technologies:sklearn,NLTK,request,bs4
+Data: https://www.yelp.com reviews
+Github: https://github.com/PawanKumarA/sentiment-analysis-.git
+
+https://www.yelp.com/
+
+
+ML problem:Classification Problem
+Algorithms:Convolutional Neural Network
+Technologies:Keras,Pandas,Numpy
+Data: https://drive.google.com/open?
+
+id=18btPhi6zusRZqCWh0nJe2kPV6nehB8eQ
+Github:https://github.com/PawanKumarA/Classification.git
+
+       Title        : “THIRD EYE
+      Language :  Python (Open CV) 
+
+     DESCRIPTION:       THIRD EYE is the AUTOMATIC ATTENDANCE SYSTEM for students by 
+recognizing their faces. We can use this application in colleges, schools and also 
+companies. It was implemented using OpenCV in python.
+
+      Title        : “cloud computing security from single to multi clouds”.
+     Team Size:  1
+
+     DESCRIPTION: This is about what are the risks we are facing single clouds and problems to 
+                    move single to multi clouds and implementation of multi clouds . Submitted as 
+                    internship project.
+
+      Title        : “Automated Vehicle Counting System Based on Blob Analysis for 
+             Traffic Surveillance”
+
+      Team Size :  1
+
+        DESCRIPTION: Projects is about a real-time detection, tracking and vehicle counting 
+             system automatically. I submitted as final project of my degree.
+
+ Strengths:
+
+• Excellent coding skills.
+• Good conceptual, Analytical and Logical skills.
+• Computer/Technology
+• Flexible/Adaptable
+• Problem-solving and decision-making
+• Capable of working hard to complete the work
+
+Declaration:
+
+I hereby certify that the details mentioned above are true to the best of my           
+knowledge and belief.
+
+(PAWAN KUMAR A)
+
+data:https://drive.google.com/open
+

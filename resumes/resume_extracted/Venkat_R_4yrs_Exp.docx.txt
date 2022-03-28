@@ -1,0 +1,281 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                                                                           RESUME
+
+
+Venkat Nagendra R
+  +91 9008048016 / 080 - 67505526                                                       
+   venkatnagendra46@gmail.com
+linkedin.com/in/venkatnagendra46/
+  github.com/VenkatNagendra
+
+SUMMARY
+Data Scientist with Master in Computer Engineering and 4+ years of experience using predictive modeling, data processing, data mining algorithms, computer vision , natural language processing , hands-on experience leveraging machine learning, deep 	 learning ,transfer learning  models to solve challenging business problems.
+Job Responsibility 
+· Achievement-driven professional with an experience of  4 years.
+· Experience in building applications with Artificial Intelligence, Machine Learning, Deep Learning, Recurrent Neural Network ,Computer vision , NLP and Python .
+· Built various computer vision system for Real time surveillance, smart parking check post , Virtual banking . 
+· Worked on Deployment and optimization of various computer vision, Machine learning and NLP solution on web based application ,Azure platform using kubernetes services and Raspberry pi . 
+· Designing the neural networks using Tensorflow for various internal projects within the company and working on Chatbots using NLP.
+Technical Skill:
+	Skill
+	Technology worked on
+
+	Domain
+	Investment Banking
+
+	Programming/Scripting
+	Python, Java
+
+	Tools/IDE
+	pycharm, Pyspyder, Jupyter  Notebook, Eclipse
+
+	Cloud
+	GAIA ( Pivotal Cloud Foundry )
+
+	Machine learning 
+	Machine Learning,Data Analysis, Artificial intelligence, Natural Language Processing, pandas, scikit learn, matplotlib, python, Data Cleaning
+
+	Deep Learning/Computer vision 
+	Tensorflow, keras, CNN, faster CNN, RNN, RNN – LSTM, Vgg16, Resnet-50, Mobilenet, SSD, Harcascade, Tensorflow JS 
+
+	Project Methodology
+	Agile SCRUM
+
+	Operating Systems
+	Windows, Cent OS , Red Hat, Ubuntu
+
+	Distribution
+	Cloudera 
+
+	Hardware
+	Nvidia tesla,Raspberry pi 3b+ 
+
+
+	Version Control
+	GIT, BIT BUCKET
+
+
+Professional Experience 
+Project-1
+                                                       CLIENT:  J P Morgan Chase
+
+	Project Name
+	Sparkle Innovation Team
+	Start Date
+	 July 2018
+
+	Owner
+	J P Morgan Chase
+	End Date
+	Till Date
+
+	Project Location
+	Bangalore – India
+	           Team Size 
+	24
+
+	
+Project Description:
+I am working as a Senior Software Engineer with Mphasis for J P Morgan client in Sparkle Innovation Team. In this  engagement I am working as a Developer for Machine learning and computer vision use cases so far I have involved  multiple use cases in like Traders Monitoring system , surveillance system for employees (Smart Parking Check Post) and may projects are in pipeline  . 
+
+Environment & technology used : Machine learning algorithms , Computer Vision , Deep leaning algorithms, Raspberry pi , GAIA , Nvidia tesla k80 . 
+
+
+		
+Contribution:
+· Involved in Requirement gathering with various clients for various use case and Feasibility check for all the requirement with timeline. 
+· Working closely with business and engineering teams to encourage statistical best practices with respect to experimental design, data capture and data analysis.
+· Working in collaboration with Product Managers to understand the challenges towards a product development and provide a solution with ML and AI techniques.
+
+· Participating in Data Preprocessing Techniques in order to make data useful for creating Machine Learning Models
+· Building baseline models for the requirements with necessary data preparation.
+· Parameter tuning process for optimal model hyper parameters.
+
+Highlights:
+· Recognized by managers, colleagues, and peers for innovation, communication, and teamwork to ensure quality, timely project completion.
+
+
+
+
+
+
+
+
+
+
+Project-2
+                                                       CLIENT:  J P Morgan Chase
+
+	Project Name
+	COIN ( Contract Intelligence )
+	Start Date
+	January  2017
+
+	Owner
+	J P Morgan Chase
+	End Date
+	June 2018
+
+	Project Location
+	Bangalore – India
+	           Team Size 
+	25
+
+	
+Project Description:
+J P Morgan Chase is the biggest bank in the United States. It is one of the largest employers in the American banking sector, with more than 240,000 serving millions of customers. Some of those employees are lawyers and loan officers who spend a total of 360,000 hours each year tackling a slew of rather mundane tasks, such as interpreting commercial-loan agreements. Now, the company has managed to cut the time spent on this work down to a matter of seconds using machine learning.
+Contract Intelligence runs on a machine learning system that’s powered by a new private cloud network that the bank uses. Apart from shortening the time it takes to review documents, COIN has also managed to help JP Morgan decrease its number of loan-servicing mistakes
+ 
+Environment & technology used : Python, Machine learning, OCR, Transfer Learning, Kafka, cloudera ,GAIA
+
+		
+Contribution:
+· Involved in requirement gathering and Architecture design of the project for machine learning implementation. 
+· Artificial intelligence convolution neural network model to classify images of different objects.
+· Develop statistical models for various predictive methods such as forecasting, classification and regression.
+· Building baseline models for the requirements with necessary data preparation.
+· Parameter tuning process for optimal model hyper parameters.
+
+
+
+                                                                                   
+
+
+
+Project-3
+                                                       CLIENT:  J P Morgan Chase
+
+	Project Name
+	Virtual Assistance 2.0
+	Start Date
+	January  2016
+
+	Owner
+	J P Morgan Chase
+	End Date
+	November 2016
+
+	Project Location
+	Bangalore – India
+	           Team Size 
+	25
+
+	
+Project Description:
+Assistance 2.0 enabled by Alexa Voice Service (AVS), Amazon’s intelligent voice recognition and natural language understanding service that allows ‘s our Retail Banking customers who are having 1000’s accounts to interact with Alexa and get assistance with respect to their account quires instead of navigating through 1200 pages which is big overhead.
+ 
+Environment & technology used : Python, Alexa skillset , Kafka, cloudera ,GAIA
+
+		
+Contribution:
+· Involved in requirement gathering and Architecture design of the project for machine learning implementation. 
+· Creating Alexa Skill sets and integrating with Alexa.
+· Working in collaboration with Product Managers to understand the challenges towards a product development.
+· Participating in Data Pre-processing Techniques in order to make data useful.
+· Parameter tuning process for optimal model hyper parameters.
+
+
+
+                                                                                   
+
+Project-4
+                                                       CLIENT:  J P Morgan Chase
+
+	Project Name
+	Trade team
+	Start Date
+	June  2015
+
+	Owner
+	J P Morgan Chase
+	End Date
+	December 2015
+
+	Project Location
+	Bangalore – India
+	           Team Size 
+	16
+
+	
+Project Description:
+We as a team built a machine learning model which is capable of predicting Interest rates of market. Trading decisions was automated based on this model which is build using 1250 features and trained over 3 million records. We still have human resources for supervising the trades made by this model. We have already reached 4.6 billion worth trading. 
+ 
+Environment & technology used : Machine learning algorithms , Cloudera , GAIA , Nvidia tesla k80
+
+		
+Contribution:
+· Involved in requirement gathering and Architecture design of the project for machine learning implementation. 
+· Participating in Data Preprocessing Techniques in order to make data useful for creating Machine Learning Models.
+· Develop statistical models for various predictive methods such as forecasting, classification and regression.
+· Perform feature engineering to know the feature importance.
+· Building baseline models for the requirements with necessary data preparation.
+· Parameter tuning process for optimal model hyper parameters
+
+
+
+.
+
+Education
+	Exam / Degree
+	University
+	School / College
+	Year of Passing
+	Percentage / CGPA
+
+	BE (Computer Science and Engineering)
+	VTU, Karnataka
+	Sapthagiri College of Engineering, Bengaluru.
+	   2014
+	   68%
+
+
+
+
