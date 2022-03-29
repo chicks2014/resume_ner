@@ -8,6 +8,8 @@ import contractions
 import os
 from nltk.tokenize import ToktokTokenizer
 
+nltk.download('stopwords')
+
 # function to remove accented characters
 def remove_accented_chars(text):
     new_text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8', 'ignore')
@@ -20,7 +22,7 @@ def get_lem(text):
     text = ' '.join([word.lemma_ if word.lemma_ != '-PRON-' else word.text for word in text])
     return text  
    
-
+# function to remove Stop words
 def remove_stopwords(text):
     stopword_list = nltk.corpus.stopwords.words('english') 
     tokenizer = ToktokTokenizer()
@@ -36,13 +38,13 @@ def remove_stopwords(text):
 def expand_contractions(text):
     return contractions.fix(text)     
 
-# function to remove special characters
+# function to remove white space characters
 def remove_extra_whitespace_tabs(text):
     #pattern = r'^\s+$|\s+$'
     pattern = r'^\s*|\s\s*'
     return re.sub(pattern, ' ', text).strip()  
 
-# function to remove special characters
+# function to convert to lower case characters
 def to_lowercase(text):
     return text.lower() 
 
@@ -67,14 +69,14 @@ def preprocess(source_path):
 
 
 def preprocess_text(source_path):
-       
-    
-    for files in os.listdir(source_path):
+    print("\nStart Preprocessing the files")
+
+    for files in os.listdir(source_path):    
         full_path = os.path.join(source_path,files)
         preprocess_file = preprocess(full_path)  
 
-        processed_file_path = './resumes'+'/'+"resume_pre_processed"+'/'+ files
-
+        processed_file_path = './resumes'+'/'+"05_resume_pre_processed"+'/'+ files
+        print(processed_file_path)
         out_file = open(processed_file_path ,"w",encoding="utf-8")
         out_file.write(str(preprocess_file))
         out_file.close() 
@@ -83,5 +85,11 @@ def preprocess_text(source_path):
     
 
 # os.chdir("d:\\d_drive\\Paul\\NLP\\NLP_resume_parser1\\resume_ner")
-source_path = "./resumes/resume_extracted"
+source_path = "./resumes/04_resume_cleaned"
+
+
 preprocess_text(source_path)  
+
+# use this for running the text_preprocess.py file directly
+# Create a conda environment inlp01
+# python text_preprocessing/text_preprocess.py
