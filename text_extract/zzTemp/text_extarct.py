@@ -1,7 +1,6 @@
 import os
 import pathlib
 from pathlib import Path
-from docx2pdf import convert
 import sys, fitz
 from tika import parser
 import textract
