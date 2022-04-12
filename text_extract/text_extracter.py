@@ -153,7 +153,7 @@ def text_extraction(resume_source,resume_extracted):
 
 '''
 text_cleaning(resume_extracted,resume_cleaned):
-Feature: Clean the text on the file. Currently removing the newline and extra space from the text. 
+Feature: Clean the text on the file. Currently removing the multiple newline and multiple newline with trailing spaces from the text. 
 Input: File path source, file path destination
 Exception: Special charecters are currently not removed
 '''
@@ -174,13 +174,20 @@ def text_cleaning(resume_extracted,resume_cleaned):
                     text_data = f.read()
                     
                 # print(text_data)
-                    
-                def remove_extra_whitespace_tabs(text): 
-                    #pattern = r'^\s+$|\s+$' 
-                    pattern = r'^\s*|\s\s*' 
-                    return re.sub(pattern, ' ', text).strip() 
 
-                clean_text = remove_extra_whitespace_tabs(text_data)
+                def remove_multiple_new_line(text): 
+
+                    # Replcace multiple new line with trailing spaces with a new line
+                    pattern_multiple_new_line_withSpace = r'\n+\s+'
+                    p_text_result01 = re.sub(pattern_multiple_new_line_withSpace, '\n', text).strip()
+
+                    # Replcace multiple new line with a new line
+                    pattern_multiple_new_line = r'\n+'
+                    p_text_result02 = re.sub(pattern_multiple_new_line, '\n', p_text_result01).strip()
+
+                    return p_text_result02
+
+                clean_text = remove_multiple_new_line(text_data)
 
                 pclean_textLength = len(clean_text)
                 print(pclean_textLength)
