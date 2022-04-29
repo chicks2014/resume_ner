@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Resume_NER</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style>
+		body{background-color:#efefef;}
+		textarea,
+		select,
+		.form-control,
+		.custom-select,
+		button.btn,
+		.btn-primary,
+		input[type="text"],
+		input[type="url"],
+		.uneditable-input{
+			border: 1px solid #dadeda;
+			outline: 0 !important;
+			border-radius:0px;
+			box-shadow: none;
+		   -webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		   -moz-transition: none;
+		   -webkit-transition: none;
+		}
+		textarea:focus,
+		select:focus,
+		.form-control:focus,
+		.btn:focus,
+		.btn-primary:focus,
+		.custom-select:focus,
+		input[type="text"]:focus,
+		.uneditable-input:focus{
+			border: 1px solid #007bff;
+			outline: 0 !important;
+			border-radius:0px;
+			box-shadow: none;
+		   -webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		   -moz-transition: none;
+		   -webkit-transition: none;
+		}
+		#loading {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 9999999999;
+			overflow: hidden;
+			background: rgba(255, 255, 255, 0.7);
+		}
+		.loader {
+			border: 8px solid #f3f3f3;
+			border-top: 8px solid #363e75;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			left: 50%;
+			margin-left: -4em;
+			display: block;
+			animation: spin 2s linear infinite;
+		}
+		.loader,
+		.loader:after {display: block;position: absolute;top: 50%;margin-top: -4.05em;}
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+	   .results{
+			background-color:#fff;
+			width:100%;
+			height:252px;
+			padding:15px;
+			line-height: 35px;
+		}
+		.results span{color:#fff;}
+		
+	</style>
+</head>
+<body>
+
+<div class="text-center">
+  <h3 class="py-5">Resume NER</h3>
+</div>
+  
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-9">
+			<form class="">
+				<div class="form">
+					<div class="form-group"><label for="myfile">Select a file:</label>
+                        <input type="file" id="myfile" name="myfile"></div>
+					<div class="form-group"><button type="submit" id="submit-btn" class="btn btn-primary">Predict</button></div>
+					<br/><br/>
+					<div class="results">
+						<!--<canvas id="result-canvas" width="823" height="250" style="border:1px solid #d3d3d3;">Your browser does not support the canvas element.</canvas>-->
+						
+					</div>
+				</div>
+			</form>
+		</div>
+	
+	</div>
+</div>
+
+<div id="loading"><div class="loader"></div></div>
+<script>
+	$(document).ready(function(){
+		$("#loading").hide();
+
+		$('#submit-btn').click(function(e){
+			e.preventDefault();
+
+		var $file = document.getElementById('myfile'),
+		$formData = new FormData();
+
+		if ($file.files.length > 0) {
+		   for (var i = 0; i < $file.files.length; i++) {
+			  $formData.append('file-' + i, $file.files[i]);
+	   }
+	}
+
+
+			$(".results").html("");
+			$("#loading").show();		
+			$.ajax({
+				url: "../predict",
+				type: "post",
+				mode: 'no-cors',
+				crossdomain: true,
+				withCredentials: false,
+				credentials: 'same-origin',
+				processData: false,
+				contentType: false,
+				headers: {
+						"Access-Control-Allow-Origin": "*"
+					},
+				data:$formData,
+				success: function(data){
+					$("#loading").hide();
+					data.forEach(function(item){
+						$(".results").append("<span class='"+item[1]+"'>"+item[0]+"</span> ");
+					});
+					$("#loading").hide();
+				},
+			error: function(r) {
+      			alert('Error' + r)
+    			}
+			});
+		});
+	});
+</script>
+</body>
+</html>
