@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 import os
 from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
+from pipeline import prediction_pipeline
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -28,6 +29,9 @@ def predictRoute():
     filename = secure_filename(file.filename)
     dest_path = r"..\resumes\prediction\01_resume_source"
     file.save(dest_path + '\\' + filename)
+
+    pred_pipe = prediction_pipeline()
+    pred_pipe.predict()
 
     return "{result: success}"
 
