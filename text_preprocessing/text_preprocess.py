@@ -23,28 +23,28 @@ class text_preprocess:
         self.pre_processed_folder_path = pre_processed_folder_path
 
     # function to remove accented characters
-    def remove_accented_chars(text):
+    def remove_accented_chars(self, text):
         new_text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8', 'ignore')
         return new_text
 
     # function to convert to lower case characters
-    def to_lowercase(text):
+    def to_lowercase(self, text):
         return text.lower()
 
         # function to replace new line with .nline
 
-    def replace_newline(text):
+    def replace_newline(self, text):
         pattern02 = r'\n'
         return re.sub(pattern02, ' .nline ', text).strip()
 
     # function to remove special characters
-    def remove_SpecialCharecters(text):
+    def remove_SpecialCharecters(self, text):
         pattern = r'[^a-zA-Z0-9 .@\\/:,]'
         return re.sub(pattern, '', text).strip()
 
         # function to remove white space characters
 
-    def remove_extra_whitespace_tabs(text):
+    def remove_extra_whitespace_tabs(self, text):
         pattern = r'^\s*|\s\s*'
         test_00 = re.sub(pattern, ' ', text).strip()
         return test_00

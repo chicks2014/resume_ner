@@ -155,6 +155,7 @@ class text_extracter:
                             resume_extracted_file_path = os.path.join(self.resume_extracted, process_file)
                             generatedFile = resume_extracted_file_path + ".txt"
 
+                            pTextString = pTextString.encode('utf-8')
                             file = open(generatedFile, "w")
                             file.write(str(pTextString))
                             file.close()
