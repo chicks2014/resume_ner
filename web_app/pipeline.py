@@ -10,6 +10,7 @@ import resume_predict.resume_prediction as rp
 
 class prediction_pipeline:
     def __init__(self):
+
         self.resume_source = "./resumes/prediction/01_resume_source"
         self.resume_extracted = "./resumes/prediction/02_resume_extracted"
         self.resume_cleaned = "./resumes/prediction/04_resume_cleaned"
