@@ -184,7 +184,7 @@ class text_extracter:
                 file, extension = os.path.splitext(process_file)
                 try:
                     resume_extracted_file_path = os.path.join(self.resume_extracted, process_file)
-                    print(resume_extracted_file_path)
+                    print(resume_extracted_file_path)                    
 
                     resume_cleaned_file_path = os.path.join(self.resume_cleaned, process_file)
                     generatedFile_cleaned = resume_cleaned_file_path

@@ -1,4 +1,3 @@
-
 import unicodedata
 import re
 import os
@@ -109,5 +108,8 @@ class text_preprocess:
                 out_file = open(processed_file_path, "w", encoding="utf-8")
                 out_file.write(str(preprocess_file))
                 out_file.close()
+                print("Preporcessed file is saved - " + processed_file_path)
+                print('\n')
+
         except Exception as e:
             print("ERROR : preprocess", e)
