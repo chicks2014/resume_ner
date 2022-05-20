@@ -100,7 +100,7 @@ class resume_predicter:
             pInferenceResumeFileExtractPath_latest_file = max(pInferenceResumeFileExtractPath_list_of_files, key=os.path.getctime)
             print(pInferenceResumeFileExtractPath_latest_file)
 
-            pInferenceResumeFileExtractPathFileName = (pInferenceResumeFileExtractPath_latest_file.rsplit('/', 1)[-1])[:-4]
+            pInferenceResumeFileExtractPathFileName = (pInferenceResumeFileExtractPath_latest_file.rsplit('\\', 1)[-1])[:-4]
             pPredictionSaveFileName = self.pPredictionSavePath + '/' + pInferenceResumeFileExtractPathFileName + '_' + date_time_now +'.csv'
 
             # Read the preprocessed resume text file 
@@ -167,21 +167,25 @@ class resume_predicter:
 
             print("Predictions are saved in the File - " + pPredictionSaveFileName)
 
+            # json_res = pResult01.to_json(orient='records')[1:-1].replace('},{', '} {')
+
 
             """# **Convert Dataframe to JSON**
             Use the one of the relevent output format for the webApp
             """
-            '''
+
             # JSON Output Format 01
 
             resume_inference_json_ouptput_01 = pResult01.to_json(orient = 'index')
 
+            print('-'*50, '\n resume_inference_json_ouptput_01', '-'*50, '\n')
             print(resume_inference_json_ouptput_01)
 
             # JSON Output Format 02
 
             resume_inference_json_ouptput_02 = pResult01.to_json(orient = 'table')
 
+            print('-'*50, '\n resume_inference_json_ouptput_02', '-'*50, '\n')
             print(resume_inference_json_ouptput_02)
 
             # JSON Output Format 03
@@ -190,23 +194,24 @@ class resume_predicter:
             pResult02 = pResult02.reset_index()
             resume_inference_json_ouptput_03 = pResult02.to_json(orient = 'records')
 
+            print('-'*50, '\n resume_inference_json_ouptput_03', '-'*50, '\n')
             print(resume_inference_json_ouptput_03)
 
             # JSON Output Format 04
 
             resume_inference_json_ouptput_04 = pResult01.to_json(orient = 'columns')
 
+            print('-'*50, '\n resume_inference_json_ouptput_04', '-'*50, '\n')
             print(resume_inference_json_ouptput_04)
 
             # JSON Output Format 05
 
             resume_inference_json_ouptput_05 = pResult01.to_json(orient = 'records')
 
+            print('-'*50, '\n resume_inference_json_ouptput_05', '-'*50, '\n')
             print(resume_inference_json_ouptput_05)
 
-            '''
 
-            print('\n')
         
         except Exception as e:
             print("ERROR : preprocess", e)

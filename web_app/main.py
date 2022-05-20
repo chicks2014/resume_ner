@@ -27,7 +27,7 @@ def predictRoute():
 
     file = request.files['file-0']
     filename = secure_filename(file.filename)
-    dest_path = r'./resumes/prediction/01_resume_source/'
+    dest_path = r'../resumes/prediction/01_resume_source/'
     file.save(dest_path + filename)
 
     pred_pipe = prediction_pipeline()
