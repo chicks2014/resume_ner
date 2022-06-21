@@ -7,6 +7,12 @@ import resume_predict.resume_prediction as rp
 # from text_extract import text_extracter as te
 # from text_preprocessing import text_preprocess as tp
 # from resume_predict import resume_prediction as rp
+from text_extract import text_extracter as te
+from text_preprocessing import text_preprocess as tp
+from resume_predict import resume_prediction as rp
+import glob
+import os
+import shutil
 
 class prediction_pipeline:
     def __init__(self):
@@ -21,8 +27,24 @@ class prediction_pipeline:
         self.pInferenceResumeFileExtractPath = "./resumes/prediction/05_resume_pre_processed/*"
         self.pPredictionSavePath = "./resumes/prediction/06_resume_annotate_prediction"
 
+    def delete_processed_files(self):
+        # files = glob.glob('/YOUR/PATH/*')
+       try:
+           dir_list = [self.resume_source, self.resume_extracted, self.resume_cleaned, self.resume_cleaned_folder_path,
+                       self.pre_processed_folder_path]
+           for d in dir_list:
+               # for f in glob.glob(d):
+               #     os.remove(f)
+               while os.path.isdir(d):
+                   shutil.rmtree(d, ignore_errors=True)
+               os.makedirs(d)
+       except Exception as e:
+           print(e)
 
     def predict(self):
+        # delete prev. run files
+        # self.delete_processed_files()
+
         text_extr = te.text_extracter(self.resume_source, self.resume_extracted, self.resume_cleaned, self.resume_not_extracted)
 
         text_extr.text_extraction()
@@ -32,4 +54,4 @@ class prediction_pipeline:
         text_prep.preprocess_text()
 
         resume_pred = rp.resume_predicter(self.pSavedModelPath, self.pInferenceResumeFileExtractPath, self.pPredictionSavePath)
-        resume_pred.resume_text_load()
+        return resume_pred.resume_text_load()

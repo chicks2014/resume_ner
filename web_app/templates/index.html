@@ -8,7 +8,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<style>
-		body{background-color:#efefef;}
+		body{background-color:white;}
 		textarea,
 		select,
 		.form-control,
@@ -55,11 +55,11 @@
 			background: rgba(255, 255, 255, 0.7);
 		}
 		.loader {
-			border: 8px solid #f3f3f3;
-			border-top: 8px solid #363e75;
+			border: 16px solid #f3f3f3;
+			border-top: 16px solid #363e75;
 			border-radius: 50%;
-			width: 60px;
-			height: 60px;
+			width: 120px;
+			height: 120px;
 			left: 50%;
 			margin-left: -4em;
 			display: block;
@@ -77,46 +77,58 @@
 		}
 	   .results{
 			background-color:#fff;
-			width:100%;
-			height:252px;
+			height:auto;
 			padding:15px;
 			line-height: 35px;
 		}
-		.results span{color:#fff;}
+		.results span{color:#1612e1;}
 		
 	</style>
 </head>
 <body>
 
 <div class="text-center">
-  <h3 class="py-5">Resume NER</h3>
+  <h1>Resume NER</h1><h5> Extract named entities from resume</h5>
 </div>
   
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-9">
 			<form class="">
-				<div class="form">
-					<div class="form-group"><label for="myfile">Select a file:</label>
-                        <input type="file" id="myfile" name="myfile"></div>
-					<div class="form-group"><button type="submit" id="submit-btn" class="btn btn-primary">Predict</button></div>
-					<br/><br/>
-					<div class="results">
-						<!--<canvas id="result-canvas" width="823" height="250" style="border:1px solid #d3d3d3;">Your browser does not support the canvas element.</canvas>-->
-						
+				<div class="form-group">
+					<label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" class="form-control-file" name="myfile">
+					<br>
+					<div class="form-group">
+						<button type="submit" id="submit-btn" class="btn btn-primary">Predict</button>
 					</div>
-				</div>
-			</form>
-		</div>
-	
-	</div>
-</div>
+					</hr>
 
-<div id="loading"><div class="loader"></div></div>
+				</div>
+				<div id="loading"><div class="loader"></div></div>
+
+			</form>
+			<div class="results">
+						<!--<canvas id="result-canvas" width="823" height="250" style="border:1px solid #d3d3d3;">Your browser does not support the canvas element.</canvas>-->
+						 <table class="table table-hover">
+							<thead class="thead-dark">
+							<tr>
+							<th scope="col">Word</th>
+							<th scope="col">Tag</th>
+							</tr>
+							</thead>
+							<tbody class="records">
+
+
+			</div>
+</div>
+	</div>
+
+
 <script>
 	$(document).ready(function(){
 		$("#loading").hide();
-
+		$(".results").hide();
 		$('#submit-btn').click(function(e){
 			e.preventDefault();
 
@@ -129,8 +141,6 @@
 	   }
 	}
 
-
-			$(".results").html("");
 			$("#loading").show();		
 			$.ajax({
 				url: "../predict",
@@ -147,9 +157,14 @@
 				data:$formData,
 				success: function(data){
 					$("#loading").hide();
+					$(".results").show();
+					data = JSON.parse(data).data
+
 					data.forEach(function(item){
-						$(".results").append("<span class='"+item[1]+"'>"+item[0]+"</span> ");
+						$(".records").append("<tr><td>"+ item['Word'] + "</td><td>" + item['Tag'] + "</td></tr>");
 					});
+					$(".records").append("</tbody></table>");
+
 					$("#loading").hide();
 				},
 			error: function(r) {

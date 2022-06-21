@@ -161,6 +161,7 @@ class resume_predicter:
             # print(pResult01.head(50))
             # print('\n')
 
+            pResult01 = pResult01[pResult01['Tag'] != 'O']
             # Save data frame to csv file
             pResult01.to_csv(path_or_buf=pPredictionSaveFileName, sep=',', na_rep='O',columns=None, header=True, index=True, index_label=None, mode='w', encoding=None, compression='infer', quoting=None, quotechar='"', line_terminator=None, chunksize=None, date_format=None, doublequote=True, escapechar=None, decimal='.', errors='strict')
             # pResult01.to_csv(pPredictionSaveFileName, encoding='utf-8', index=False)
@@ -205,8 +206,9 @@ class resume_predicter:
             print(resume_inference_json_ouptput_05)
 
             '''
-
             print('\n')
         
+            return resume_inference_json_ouptput_02
+
         except Exception as e:
             print("ERROR : preprocess", e)

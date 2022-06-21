@@ -25,15 +25,18 @@ def store_file(file_content):
 @cross_origin()
 def predictRoute():
 
+    pred_pipe = prediction_pipeline()
+    pred_pipe.delete_processed_files()
+
     file = request.files['file-0']
     filename = secure_filename(file.filename)
     dest_path = r'./resumes/prediction/01_resume_source/'
     file.save(dest_path + filename)
 
-    pred_pipe = prediction_pipeline()
-    pred_pipe.predict()
 
-    return "{result: success}"
+    return pred_pipe.predict()
+
+    # return "{result: success}"
 
 
 #port = int(os.getenv("PORT"))
